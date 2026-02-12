@@ -9,9 +9,10 @@
 - 窗口管理软件中可自定义 `⌥⌃⌘ + 1/2/3/4`
 
 ## 如何使用
-1. 将 `fn-two-arrows-quarter-window.json` 的规则加入 `~/.config/karabiner/karabiner.json` 的 `profiles[].complex_modifications.rules`
-2. 在 Karabiner-Elements 启用该规则
-3. 在窗口管理软件中绑定：
+1. 打开 Karabiner-Elements，进入 `Modifications -> Complex Modifications`
+2. 点击 `Add your own rule`，把 `fn-two-arrows-quarter-window.json` 的完整内容粘贴进去并保存
+3. 回到 `Complex Modifications` 列表，启用这条规则
+4. 在窗口管理软件中绑定：
 - `⌥⌃⌘ + 1` -> 左上
 - `⌥⌃⌘ + 2` -> 右上
 - `⌥⌃⌘ + 3` -> 左下

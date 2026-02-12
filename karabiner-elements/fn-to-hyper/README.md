@@ -9,9 +9,9 @@
 - 你使用的其他软件（如 Raycast、Hammerspoon、Keyboard Maestro）支持自定义快捷键
 
 ## 如何使用
-1. 打开 `~/.config/karabiner/karabiner.json`
-2. 在 `profiles[].complex_modifications.rules` 中新增一个规则，并将 `fn-to-hyper.json` 的 `manipulators` 粘贴进去
-3. 在 Karabiner-Elements 中启用该规则
+1. 打开 Karabiner-Elements，进入 `Modifications -> Complex Modifications`
+2. 点击 `Add your own rule`，把 `fn-to-hyper.json` 的完整内容粘贴进去并保存
+3. 回到 `Complex Modifications` 列表，启用这条规则
 4. 到你的效率工具里绑定快捷键，例如把 `⌥⌃⌘ + J/K` 绑定到常用动作
 
 说明：

@@ -9,9 +9,9 @@ macOS 默认的输入法切换通常是“循环切换”，当你同时启用�
 - 允许 Karabiner-Elements 所需系统权限（Input Monitoring 等）
 
 ## 如何使用
-1. 打开 Karabiner-Elements 配置文件：`~/.config/karabiner/karabiner.json`
-2. 在 `profiles[].complex_modifications.rules` 中新增一个 rule，将 `switch-input-sources.json` 的内容放到 `rule.manipulators`
-3. 保存后在 Karabiner-Elements 中启用该规则
+1. 打开 Karabiner-Elements，进入 `Modifications -> Complex Modifications`
+2. 点击 `Add your own rule`，把 `switch-input-sources.json` 的完整内容粘贴进去并保存
+3. 回到 `Complex Modifications` 列表，启用这条规则
 
 默认快捷键：
 - `Right Command + E` 切到英文
