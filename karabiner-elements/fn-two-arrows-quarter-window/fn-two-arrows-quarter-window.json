@@ -1,0 +1,69 @@
+{
+  "description": "1/4 window management: fn + two arrow -> ⌘⌃⌥ + 1/2/3/4",
+  "manipulators": [
+    {
+      "from": {
+        "modifiers": { "mandatory": ["fn"] },
+        "simultaneous": [
+          { "key_code": "up_arrow" },
+          { "key_code": "left_arrow" }
+        ]
+      },
+      "to": [
+        {
+          "key_code": "1",
+          "modifiers": ["left_command", "left_control", "left_option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "modifiers": { "mandatory": ["fn"] },
+        "simultaneous": [
+          { "key_code": "up_arrow" },
+          { "key_code": "right_arrow" }
+        ]
+      },
+      "to": [
+        {
+          "key_code": "2",
+          "modifiers": ["left_command", "left_control", "left_option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "modifiers": { "mandatory": ["fn"] },
+        "simultaneous": [
+          { "key_code": "down_arrow" },
+          { "key_code": "left_arrow" }
+        ]
+      },
+      "to": [
+        {
+          "key_code": "3",
+          "modifiers": ["left_command", "left_control", "left_option"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "modifiers": { "mandatory": ["fn"] },
+        "simultaneous": [
+          { "key_code": "down_arrow" },
+          { "key_code": "right_arrow" }
+        ]
+      },
+      "to": [
+        {
+          "key_code": "4",
+          "modifiers": ["left_command", "left_control", "left_option"]
+        }
+      ],
+      "type": "basic"
+    }
+  ]
+}
