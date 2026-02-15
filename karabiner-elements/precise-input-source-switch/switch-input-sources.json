@@ -34,7 +34,7 @@
                 { "select_input_source": { "language": "^en$" } },
                 {
                     "key_code": "vk_none",
-                    "hold_down_milliseconds": 50
+                    "hold_down_milliseconds": 10
                 },
                 {
                     "hold_down_milliseconds": 20,
@@ -63,7 +63,7 @@
                 { "select_input_source": { "language": "^en$" } },
                 {
                     "key_code": "vk_none",
-                    "hold_down_milliseconds": 50
+                    "hold_down_milliseconds": 10
                 },
                 {
                     "hold_down_milliseconds": 20,
